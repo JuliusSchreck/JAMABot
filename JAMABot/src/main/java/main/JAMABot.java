@@ -5,7 +5,7 @@ import util.*;
 
 public class JAMABot {
     
-    final static String TOKEN = "MjA0MzU4MjMyNjE1OTQ0MTky.CnKrYA.-5pEa7_e-IC0QGhj3ugjJAVeZKU";
+    final static String TOKEN = "TOKEN GOES HERE";
     
     public static IDiscordClient discordClient;
     

@@ -12,7 +12,7 @@ public class JAMABot {
     public static void main(String[] args) throws Exception{
         
         ClientControl control = new ClientControl();
-        
+        //qwer
         util.Data.loadCommandControl();
         
         discordClient = control.getClient(TOKEN);

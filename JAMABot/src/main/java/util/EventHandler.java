@@ -94,14 +94,6 @@ public class EventHandler {
                 }
                 JAMABot.discordClient.getChannelByID(ChannelIDString).sendMessage(message);
             }
-            else if (MessageParse[0].equals("!randomsound")){
-                int ind = 0;
-                while (true){
-                    ind = rnd.next(Data.CommandData);
-                    if (CommandData[ind][1] != "util") break;
-                }
-                ClientControl.playSound(Data.CommandData[ind][2], event);
-            }
         }  
     }  
 }
